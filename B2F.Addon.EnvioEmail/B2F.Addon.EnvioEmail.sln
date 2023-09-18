@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B2F.Addon.EnvioEmail", "B2F.Addon.EnvioEmail\B2F.Addon.EnvioEmail.csproj", "{61A955B3-6FDF-4315-9A75-011AE4CD38EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61A955B3-6FDF-4315-9A75-011AE4CD38EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A955B3-6FDF-4315-9A75-011AE4CD38EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A955B3-6FDF-4315-9A75-011AE4CD38EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A955B3-6FDF-4315-9A75-011AE4CD38EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E7C2EFB-7992-4958-93B7-22E89F338CDE}
+	EndGlobalSection
+EndGlobal

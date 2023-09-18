@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddOnRegData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SlientInstallation="No" SlientUpgrade="No" Partnernmsp="B2Finance" SchemaVersion="3.0" Type="" MultipleVersion="false" OnDemand="" OnPremise="" ExtName="AddOn Envio de Email - Anexos Pedido de Compra" ExtVersion="1.0.0.0" Contdata="" Partner="B2Finance" DBType="HANA" ClientType="A">
+  <Validity>
+    <SBOCompatibility>
+      <Version From="" To="" />
+    </SBOCompatibility>
+  </Validity>
+  <Configuration>
+    <Repository>
+      <Properties />
+    </Repository>
+    <Deployment>
+      <Properties />
+    </Deployment>
+    <Assignment>
+      <Properties />
+    </Assignment>
+  </Configuration>
+  <Addons>
+    <Addon Name="" Group="" ForceFlag="" Visible="" AutoAssign="" SelfUpgrd="">
+      <x86 AddonExe="C:\Users\b2finance__03\Documents\GitHub\PRODUTO-ADDON-ENVIO-EMAIL\B2F.Addon.EnvioEmail\B2F.Addon.EnvioEmail\bin\Debug\B2F.Addon.EnvioEmail.exe" AddonSig="">
+        <Installation>
+          <Files>
+            <File FileName="B2F.Addon.EnvioEmail.b1s">
+              <Actions />
+            </File>
+            <File FileName="B2F.Addon.EnvioEmail.exe">
+              <Actions />
+            </File>
+            <File FileName="B2F.Addon.EnvioEmail.exe.config">
+              <Actions />
+            </File>
+            <File FileName="B2F.Addon.EnvioEmail.pdb">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.CrystalReports.Engine.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.ClientDoc.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CommLayer.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CommonControls.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CommonObjectModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.Controllers.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CubeDefModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.DataDefModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.DataSetConversion.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.ObjectFactory.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.Prompting.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.ReportDefModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.XmlSerialize.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportSource.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.Shared.dll">
+              <Actions />
+            </File>
+            <File FileName="log4net.dll">
+              <Actions />
+            </File>
+            <File FileName="log4net.xml">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.dll">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.xml">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.dll">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.dll.config">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.pdb">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.xml">
+              <Actions />
+            </File>
+            <File FileName="SAPBusinessOneSDK.dll">
+              <Actions />
+            </File>
+            <File FileName="stdole.dll">
+              <Actions />
+            </File>
+            <File FileName="Queries\ConsultarCaminhoAnexos.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\ConsultarEmailFornecedor.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\InsertB2F_LOG.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\SelectB2F_LOG.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\UpdateB2F_LOG.sql">
+              <Actions />
+            </File>
+            <File FileName="Report\rptPedidoCompra.rpt">
+              <Actions />
+            </File>
+          </Files>
+        </Installation>
+        <Uninstallation>
+          <Files>
+            <File FileName="B2F.Addon.EnvioEmail.b1s">
+              <Actions />
+            </File>
+            <File FileName="B2F.Addon.EnvioEmail.exe">
+              <Actions />
+            </File>
+            <File FileName="B2F.Addon.EnvioEmail.exe.config">
+              <Actions />
+            </File>
+            <File FileName="B2F.Addon.EnvioEmail.pdb">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.CrystalReports.Engine.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.ClientDoc.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CommLayer.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CommonControls.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CommonObjectModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.Controllers.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CubeDefModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.DataDefModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.DataSetConversion.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.ObjectFactory.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.Prompting.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.ReportDefModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.XmlSerialize.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportSource.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.Shared.dll">
+              <Actions />
+            </File>
+            <File FileName="log4net.dll">
+              <Actions />
+            </File>
+            <File FileName="log4net.xml">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.dll">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.xml">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.dll">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.dll.config">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.pdb">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.xml">
+              <Actions />
+            </File>
+            <File FileName="SAPBusinessOneSDK.dll">
+              <Actions />
+            </File>
+            <File FileName="stdole.dll">
+              <Actions />
+            </File>
+            <File FileName="Queries\ConsultarCaminhoAnexos.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\ConsultarEmailFornecedor.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\InsertB2F_LOG.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\SelectB2F_LOG.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\UpdateB2F_LOG.sql">
+              <Actions />
+            </File>
+            <File FileName="Report\rptPedidoCompra.rpt">
+              <Actions />
+            </File>
+          </Files>
+        </Uninstallation>
+      </x86>
+      <x64 AddonExe="C:\Users\b2finance__03\Documents\GitHub\PRODUTO-ADDON-ENVIO-EMAIL\B2F.Addon.EnvioEmail\B2F.Addon.EnvioEmail\bin\Debug\B2F.Addon.EnvioEmail.exe" AddonSig="">
+        <Installation>
+          <Files>
+            <File FileName="B2F.Addon.EnvioEmail.b1s">
+              <Actions />
+            </File>
+            <File FileName="B2F.Addon.EnvioEmail.exe">
+              <Actions />
+            </File>
+            <File FileName="B2F.Addon.EnvioEmail.exe.config">
+              <Actions />
+            </File>
+            <File FileName="B2F.Addon.EnvioEmail.pdb">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.CrystalReports.Engine.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.ClientDoc.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CommLayer.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CommonControls.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CommonObjectModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.Controllers.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CubeDefModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.DataDefModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.DataSetConversion.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.ObjectFactory.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.Prompting.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.ReportDefModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.XmlSerialize.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportSource.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.Shared.dll">
+              <Actions />
+            </File>
+            <File FileName="log4net.dll">
+              <Actions />
+            </File>
+            <File FileName="log4net.xml">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.dll">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.xml">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.dll">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.dll.config">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.pdb">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.xml">
+              <Actions />
+            </File>
+            <File FileName="SAPBusinessOneSDK.dll">
+              <Actions />
+            </File>
+            <File FileName="stdole.dll">
+              <Actions />
+            </File>
+            <File FileName="Queries\ConsultarCaminhoAnexos.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\ConsultarEmailFornecedor.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\InsertB2F_LOG.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\SelectB2F_LOG.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\UpdateB2F_LOG.sql">
+              <Actions />
+            </File>
+            <File FileName="Report\rptPedidoCompra.rpt">
+              <Actions />
+            </File>
+          </Files>
+        </Installation>
+        <Uninstallation>
+          <Files>
+            <File FileName="B2F.Addon.EnvioEmail.b1s">
+              <Actions />
+            </File>
+            <File FileName="B2F.Addon.EnvioEmail.exe">
+              <Actions />
+            </File>
+            <File FileName="B2F.Addon.EnvioEmail.exe.config">
+              <Actions />
+            </File>
+            <File FileName="B2F.Addon.EnvioEmail.pdb">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.CrystalReports.Engine.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.ClientDoc.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CommLayer.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CommonControls.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CommonObjectModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.Controllers.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.CubeDefModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.DataDefModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.DataSetConversion.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.ObjectFactory.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.Prompting.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.ReportDefModel.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportAppServer.XmlSerialize.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.ReportSource.dll">
+              <Actions />
+            </File>
+            <File FileName="CrystalDecisions.Shared.dll">
+              <Actions />
+            </File>
+            <File FileName="log4net.dll">
+              <Actions />
+            </File>
+            <File FileName="log4net.xml">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.dll">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.xml">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.dll">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.dll.config">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.pdb">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v4.5.xml">
+              <Actions />
+            </File>
+            <File FileName="SAPBusinessOneSDK.dll">
+              <Actions />
+            </File>
+            <File FileName="stdole.dll">
+              <Actions />
+            </File>
+            <File FileName="Queries\ConsultarCaminhoAnexos.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\ConsultarEmailFornecedor.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\InsertB2F_LOG.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\SelectB2F_LOG.sql">
+              <Actions />
+            </File>
+            <File FileName="Queries\UpdateB2F_LOG.sql">
+              <Actions />
+            </File>
+            <File FileName="Report\rptPedidoCompra.rpt">
+              <Actions />
+            </File>
+          </Files>
+        </Uninstallation>
+      </x64>
+    </Addon>
+  </Addons>
+  <XApps>
+    <XApp Name="" Path="" FileName="" />
+  </XApps>
+  <UDQs>
+    <UDQ udqname="">
+      <Hana FileName="" />
+    </UDQ>
+  </UDQs>
+</AddOnRegData>
